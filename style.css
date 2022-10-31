@@ -3,7 +3,10 @@
 }
 
 body{
- background-color: pink;
+background: #C6FFDD;
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+
 }
 
 #title,#title2,#title3,#title4,#title5{
