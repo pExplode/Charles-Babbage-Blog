@@ -1,0 +1,51 @@
+#Charles_Picture{
+    border-radius: 90px;
+}
+
+body{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#title,#title2,#title3,#title4,#title5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.menu {
+    list-style:none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    right: 30px;
+}
+
+.links {
+    float: right;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    padding-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color:rgb(248, 228, 187)
+}
+
+.links:hover{
+    background-color:#e1fbf1
+}
+
+#title2,#title3,#title4,#title5{
+    font-size:33px;
+}
+
+p{
+    font-size: 12px;
+}
+
