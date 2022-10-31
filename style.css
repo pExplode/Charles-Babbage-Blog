@@ -3,7 +3,10 @@
 }
 
 body{
-background-color: pink;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 #title,#title2,#title3,#title4,#title5{
@@ -31,11 +34,11 @@ background-color: pink;
     padding-right: 15px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: rgb(255, 130, 240);
+    background-color:rgb(248, 228, 187)
 }
 
 .links:hover{
-    background-color:violet;
+    background-color:#e1fbf1
 }
 
 #title2,#title3,#title4,#title5{
